@@ -11,6 +11,7 @@ const ENV = {
     CLOUDINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME,
     CLIENT_URL: process.env.CLIENT_URL,
     MOBILE_CLIENT_URL: process.env.MOBILE_CLIENT_URL,
+    ADMIN_EMAIL: process.env.ADMIN_EMAIL,
 }
 
 export default ENV;
