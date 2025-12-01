@@ -1,0 +1,16 @@
+import 'dotenv/config';
+
+const ENV = {
+    PORT: process.env.PORT,
+    MONGO_URI: process.env.MONGO_URI,
+    CLERK_PUBLISHABLE_KEY: process.env.CLERK_PUBLISHABLE_KEY,
+    CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
+    INNGEST_SIGNING_KEY: process.env.INNGEST_SIGNING_KEY,
+    CLOUDINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET,
+    CLOUDINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
+    CLOUDINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME,
+    CLIENT_URL: process.env.CLIENT_URL,
+    MOBILE_CLIENT_URL: process.env.MOBILE_CLIENT_URL,
+}
+
+export default ENV;
