@@ -16,7 +16,7 @@ import cartRoutes from './routes/cart.route.js';
 
 const app = express();
 const PORT = ENV.PORT;
-app.use(cors({ origin: [ENV.CLIENT_URL, ENV.MOBILE_CLIENT_URL, "https://e-commerce-backend-nfg2.onrender.com"], credentials: true }));
+app.use(cors({ origin: [ENV.CLIENT_URL, ENV.MOBILE_WEB_CLIENT_URL, ENV.MOBILE_APP_CLIENT_URL], credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(clerkMiddleware());
